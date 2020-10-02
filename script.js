@@ -1,0 +1,84 @@
+function moderation() {
+    document.getElementById("general").style.display = "none";
+    document.getElementById("management").style.display = "none";
+    document.getElementById("moderation").style.display = "block";
+    document.getElementById("moderation-nav").style.background = "#7289da";
+    document.getElementById("management-nav").style.background = "#2c2c2c";
+    document.getElementById("general-nav").style.background = "#2c2c2c";
+    document.getElementById("api").style.display = "none";
+    document.getElementById("api-nav").style.background = "#2c2c2c";
+    document.getElementById("tag").style.display = "none";
+    document.getElementById("tag-nav").style.background = "#2c2c2c";
+    document.getElementById("chat").style.display = "none";
+    document.getElementById("chat-nav").style.background = "#2c2c2c";
+}
+function general() {
+    document.getElementById("general").style.display = "block";
+    document.getElementById("management").style.display = "none";
+    document.getElementById("moderation").style.display = "none";
+    document.getElementById("general-nav").style.background = "#7289da";
+    document.getElementById("moderation-nav").style.background = "#2c2c2c";
+    document.getElementById("management-nav").style.background = "#2c2c2c";
+    document.getElementById("api").style.display = "none";
+    document.getElementById("api-nav").style.background = "#2c2c2c";
+    document.getElementById("tag").style.display = "none";
+    document.getElementById("tag-nav").style.background = "#2c2c2c";
+    document.getElementById("chat").style.display = "none";
+    document.getElementById("chat-nav").style.background = "#2c2c2c";
+}
+function management() {
+    document.getElementById("general").style.display = "none";
+    document.getElementById("management").style.display = "block";
+    document.getElementById("moderation").style.display = "none";
+    document.getElementById("api").style.display = "none";
+    document.getElementById("api-nav").style.background = "#2c2c2c";
+    document.getElementById("management-nav").style.background = "#7289da";
+    document.getElementById("moderation-nav").style.background = "#2c2c2c";
+    document.getElementById("general-nav").style.background = "#2c2c2c";
+    document.getElementById("tag").style.display = "none";
+    document.getElementById("tag-nav").style.background = "#2c2c2c";
+    document.getElementById("chat").style.display = "none";
+    document.getElementById("chat-nav").style.background = "#2c2c2c";
+}
+function api() {
+    document.getElementById("general").style.display = "none";
+    document.getElementById("management").style.display = "none";
+    document.getElementById("moderation").style.display = "none";
+    document.getElementById("api").style.display = "block";
+    document.getElementById("management-nav").style.background = "#2c2c2c";
+    document.getElementById("moderation-nav").style.background = "#2c2c2c";
+    document.getElementById("general-nav").style.background = "#2c2c2c";
+    document.getElementById("api-nav").style.background = "#7289da";
+    document.getElementById("tag").style.display = "none";
+    document.getElementById("tag-nav").style.background = "#2c2c2c";
+    document.getElementById("chat").style.display = "none";
+    document.getElementById("chat-nav").style.background = "#2c2c2c";
+}
+function tag() {
+    document.getElementById("general").style.display = "none";
+    document.getElementById("management").style.display = "none";
+    document.getElementById("moderation").style.display = "none";
+    document.getElementById("api").style.display = "none";
+    document.getElementById("management-nav").style.background = "#2c2c2c";
+    document.getElementById("moderation-nav").style.background = "#2c2c2c";
+    document.getElementById("general-nav").style.background = "#2c2c2c";
+    document.getElementById("api-nav").style.background = "#2c2c2c";
+    document.getElementById("tag").style.display = "block";
+    document.getElementById("tag-nav").style.background = "#7289da";
+    document.getElementById("chat").style.display = "none";
+    document.getElementById("chat-nav").style.background = "#2c2c2c";
+}
+function chat() {
+    document.getElementById("general").style.display = "none";
+    document.getElementById("management").style.display = "none";
+    document.getElementById("moderation").style.display = "none";
+    document.getElementById("api").style.display = "none";
+    document.getElementById("management-nav").style.background = "#2c2c2c";
+    document.getElementById("moderation-nav").style.background = "#2c2c2c";
+    document.getElementById("general-nav").style.background = "#2c2c2c";
+    document.getElementById("api-nav").style.background = "#2c2c2c";
+    document.getElementById("tag").style.display = "none";
+    document.getElementById("tag-nav").style.background = "#2c2c2c";
+    document.getElementById("chat").style.display = "block";
+    document.getElementById("chat-nav").style.background = "#7289da";
+}
